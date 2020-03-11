@@ -40,32 +40,15 @@ echo "\nHello there. It's been a harrowing few weeks. First your toenail issue, 
 
 
 // Play 25 rounds
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
-gameRound();
+$count=1;
+while($count<=25){
+  gameRound();
+  $count++;
+}
 
 
 // Game Is Over
 echo "\n**********ATTENTION***********\n The game is over!" ;
+
+
+
